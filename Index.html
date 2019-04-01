@@ -2,29 +2,17 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <script type="text/javascript" src="0x.js"></script>
+        <script src="https://instant.0x.org/instant.js" /></script>
     </head>
     <body>
         <script type='text/javascript'>
             function renderZeroExInstant() {
-                
-                console.log(assetDataUtils.encodeERC20AssetData("fdsa"))
-//                zeroExInstant.render(
-//                    {
-//                        orderSource: 'https://api.radarrelay.com/0x/v2/',
-//                                additionalAssetMetaDataMap: {
-//            '0xf47261b00000000000000000000000000x3545F9C8951C06Cac683E303a12E011e1d3F0977': {
-//                assetProxyId: '0xf47261b0', // ERC20 Proxy Id
-//                decimals: 18,
-//                symbol: 'XXX',
-//                name: 'My Custom Token',
-//                primaryColor: '#F2F7FF', // Optional
-//                iconUrl: 'https://cdn.icons.com/my_icon.svg', // Optional
-//            },
-//        },
-//                    },
-//                    'body',
-//                );
+                zeroExInstant.render(
+                    {
+                        orderSource: 'https://api.radarrelay.com/0x/v2/',
+                    },
+                    'body',
+                );
             }
         </script>
         <button onClick="renderZeroExInstant()">Sneaker Cred</button>
