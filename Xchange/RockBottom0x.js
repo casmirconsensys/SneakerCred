@@ -1,4 +1,4 @@
-pragma solidity ^0.5.0;
+
 
 import {
     assetDataUtils,
@@ -9,16 +9,16 @@ import {
     orderHashUtils,
     signatureUtils,
 } from '0x.js';
-import { Web3Wrapper } from '@0x/web3-wrapper';
+//import { Web3Wrapper } from '@0x/web3-wrapper';
 
-import { NETWORK_CONFIGS, TX_DEFAULTS } from '../configs';
-import { DECIMALS, NULL_ADDRESS, ZERO } from '../constants';
-import { contractAddresses } from '../contracts';
-import { PrintUtils } from '../print_utils';
-import { providerEngine } from '../provider_engine';
-import { getRandomFutureDateInSeconds } from '../utils';
+//import { NETWORK_CONFIGS, TX_DEFAULTS } from '../configs';
+//import { DECIMALS, NULL_ADDRESS, ZERO } from '../constants';
+//import { contractAddresses } from '../contracts';
+//import { PrintUtils } from '../print_utils';
+//import { providerEngine } from '../provider_engine';
+//import { getRandomFutureDateInSeconds } from '../utils';
 
-Contract RockBottom0x;
+
 /**
  * In this scenario, the maker creates and signs an order for selling ZRX for WETH.
  * The taker uses the forwarding contract to buy these tokens. When using
