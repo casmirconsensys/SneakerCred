@@ -16,6 +16,8 @@ contract PlayerCrud {
   address[] private playerIndex;
 
   event LogNewPlayer   (address indexed playerAddress, uint index, bytes32 playerName, uint playerBadge, uint shoeBoost);
+  event LogshoeBoost(address indexed playerAddress, uint index, bytes32 playerName, uint playerBadge, uint shoeBoost);
+  event LogUpdateshoeBoost(address indexed playerAddress, uint index, bytes32 playerName, uint playerBadge, uint shoeBoost);
   event LogUpdatePlayer(address indexed playerAddress, uint index, bytes32 playerName, uint playerBadge, uint shoeBoost);
   event LogDeletePlayer(address indexed playerAddress, uint index);
 
@@ -129,6 +131,21 @@ contract PlayerCrud {
     returns(address playerAddress)
   {
     return playerIndex[index];
+  }
+
+  function updateshoeBoost(address playerAddress, uint shoeBoost)
+    public
+    returns(bool success)
+  {
+    if(!isPlayer(playerAddress)) revert();
+    playerStructs[playerAddress].shoeBoost = shoeBoost;
+    emit LogUpdateshoeBoost(
+      playerAddress,
+      playerStructs[playerAddress].index,
+      playerStructs[playerAddress].playerName,
+      playerStructs[playerAddress].playerBadge,
+      playerStructs[playerAddress].shoeBoost);
+    return true;
   }
 
 }
