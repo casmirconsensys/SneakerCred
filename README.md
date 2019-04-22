@@ -1,6 +1,6 @@
 	# SNEAKER_CRED
 
-SneakerCred utilizes ERC1155 to Manufature 'MyTeamCards', 'MyCareer', Virtual Currency for Video Games such as 'NBA2K' series. The purpose of this project is to allow game users to be the custodians for their in-game Assets using their Wallet and also able to trade them	on a decentralized exchange. 
+SneakerCred utilizes ERC1155 to Manufature 'MyTeamCards', 'MyCareer', & Virtual Currency for Video Games such as 'NBA2K' series. The purpose of this project is to allow game users to be the custodians for their in-game Assets using their Wallet and also able to trade them	on a decentralized exchange. 
 
 
 Tokenization of Sports Assets in Gaming Or
@@ -124,7 +124,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [pragman solidity ^5.0.0](https://solidity.readthedocs.io/en/v0.5.3/layout-of-source-files.html) for versioning. For ABI Encoding, see the [ABIEncoderV2](https://github.com/ethereum/solidity/issues/3379). 
+We use [pragma solidity ^5.0.0](https://solidity.readthedocs.io/en/v0.5.3/layout-of-source-files.html) for versioning. For ABI Encoding, see the [ABIEncoderV2](https://github.com/ethereum/solidity/issues/3379). 
 
 ## Authors
 
@@ -140,5 +140,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * Hat tip to Rob Hutchins - A Reusable Implementation of the popular storage pattern for Ethereum
 * Inspiration - NBA2K 'MyTeamCards' 
-* && “The players will be able to walk their created character into a 'Virtual Foot Locker' and shop for a new pair of kicks in the [Run the Neighborhood] (Game Mode)" 
+* [Run the Neighborhood] “The players will be able to walk their created character into a 'Virtual Foot Locker' and shop for a new pair of kicks in the  (NBA2K Game Mode)" 
 
