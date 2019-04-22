@@ -109,9 +109,14 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [OpenZeppelin] (https://github.com/OpenZeppelin/openzeppelin-solidity)
+* [SolidityC.R.U.D] (https://github.com/rob-Hitchens/UnorderedKeySet)
+* [Enjin-ERC1155] (https://github.com/enjin/erc-1155)
+* [0x Instant] (https://github.com/casmirconsensys/0x-launch-kit)
+
+* [Remix](http://remix.ethereum.org) - The web IDE used
+* [Truffle](http://Truffleframework.com) - Development Management
+* [Ganache](https://truffleframework.com/docs/ganache/workspaces/the-quickstart-workspace) - Used to generate local blockchain
 
 ## Contributing
 
@@ -119,13 +124,13 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use [pragman solidity ^5.0.0](https://solidity.readthedocs.io/en/v0.5.3/layout-of-source-files.html) for versioning. For ABI Encoding, see the [ABIEncoderV2](https://github.com/ethereum/solidity/issues/3379). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Casmir Patterson** - *Initial work* - [SneakerCred](https://github.com/casmirconsensys/SneakerCred)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of contracts [cryptokitties](https://github.com/dapperlabs/cryptokitties-bounty/blob/master/contracts/KittyCore.sol) who inspired this project.
 
 ## License
 
@@ -133,7 +138,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Hat tip to Rob Hutchins - A Reusable Implementation of the popular storage pattern for Ethereum
+* Inspiration - NBA2K 'MyTeamCards' 
+* && “The players will be able to walk their created character into a 'Virtual Foot Locker' and shop for a new pair of kicks in the [Run the Neighborhood] (Game Mode)" 
 
