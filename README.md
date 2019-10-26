@@ -85,7 +85,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [pragma solidity ^5.0.0](https://solidity.readthedocs.io/en/v0.5.3/layout-of-source-files.html) for versioning. For ABI Encoding, see the [ABIEncoderV2](https://github.com/ethereum/solidity/issues/3379). 
+We use [pragma solidity ^0.5.0](https://solidity.readthedocs.io/en/v0.5.3/layout-of-source-files.html) for versioning. For ABI Encoding, see the [ABIEncoderV2](https://github.com/ethereum/solidity/issues/3379). 
 
 ## Authors
 
